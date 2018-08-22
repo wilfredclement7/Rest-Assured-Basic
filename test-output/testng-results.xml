@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1644" started-at="2018-08-22T09:05:03Z" finished-at="2018-08-22T09:05:04Z">
+  <suite name="Default suite" duration-ms="1389" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1644" started-at="2018-08-22T09:05:03Z" finished-at="2018-08-22T09:05:04Z">
-      <class name="alpha.Flow1">
-        <test-method status="PASS" signature="TC_1()[pri:0, instance:alpha.Flow1@7d9d1a19]" name="TC_1" duration-ms="1591" started-at="2018-08-22T09:05:03Z" finished-at="2018-08-22T09:05:04Z">
+    <test name="Default test" duration-ms="1389" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
+      <class name="alpha.Flow2_Hash">
+        <test-method status="PASS" signature="TC_1()[pri:0, instance:alpha.Flow2_Hash@7d9d1a19]" name="TC_1" duration-ms="1374" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_1 -->
-        <test-method status="PASS" signature="TC_2()[pri:1, instance:alpha.Flow1@7d9d1a19]" name="TC_2" duration-ms="27" started-at="2018-08-22T09:05:04Z" finished-at="2018-08-22T09:05:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_2 -->
-      </class> <!-- alpha.Flow1 -->
+      </class> <!-- alpha.Flow2_Hash -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
