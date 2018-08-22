@@ -18,6 +18,7 @@ public class FetchFromFile extends BaseClass
 @Test
 public void TC_2()
 	{
+	
 		RequestSpecification req = RestAssured.given();
 		req.header("Content-Type","application/json");
 		

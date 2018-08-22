@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
 import java.util.HashMap;
 import java.util.*;
 
-public class Flow2_Hash {
+public class Post_Hash {
 
 	@SuppressWarnings("all")
     @Test

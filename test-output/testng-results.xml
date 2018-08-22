@@ -1,17 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1389" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
+  <suite name="Default suite" duration-ms="609" started-at="2018-08-22T14:20:15Z" finished-at="2018-08-22T14:20:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1389" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
-      <class name="alpha.Flow2_Hash">
-        <test-method status="PASS" signature="TC_1()[pri:0, instance:alpha.Flow2_Hash@7d9d1a19]" name="TC_1" duration-ms="1374" started-at="2018-08-22T11:48:15Z" finished-at="2018-08-22T11:48:16Z">
+    <test name="Default test" duration-ms="609" started-at="2018-08-22T14:20:15Z" finished-at="2018-08-22T14:20:16Z">
+      <class name="alpha.PostCall_JSON">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:alpha.PostCall_JSON@464bee09]" name="beforeMethod" is-config="true" duration-ms="125" started-at="2018-08-22T14:20:16Z" finished-at="2018-08-22T14:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void alpha.PostCall_JSON.TC_2()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_1 -->
-      </class> <!-- alpha.Flow2_Hash -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC_2()[pri:0, instance:alpha.PostCall_JSON@464bee09]" name="TC_2" duration-ms="0" started-at="2018-08-22T14:20:16Z" finished-at="2018-08-22T14:20:16Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method put(JSONObject) is undefined for the type JSONArray
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method put(JSONObject) is undefined for the type JSONArray
+
+at alpha.PostCall_JSON.TC_2(PostCall_JSON.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:alpha.PostCall_JSON@464bee09]" name="afterMethod" is-config="true" duration-ms="437" started-at="2018-08-22T14:20:16Z" finished-at="2018-08-22T14:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_2 status=FAILURE method=PostCall_JSON.TC_2()[pri:0, instance:alpha.PostCall_JSON@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- alpha.PostCall_JSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

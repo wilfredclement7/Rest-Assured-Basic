@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alpha.Flow1">
+      <class name="alpha.PostCall_JSON">
         <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
           <include name="TC_2"/>
         </methods>
-      </class> <!-- alpha.Flow1 -->
+      </class> <!-- alpha.PostCall_JSON -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
