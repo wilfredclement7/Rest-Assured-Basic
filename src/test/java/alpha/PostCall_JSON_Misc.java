@@ -3,16 +3,12 @@ package alpha;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-//import com.relevantcodes.extentreports.LogStatus;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
-import alpha.BaseClass;
-//import alpha.ExtentTestManager;
 
-public class PostCall_JSON_NW extends BaseClass 
-{
+public class PostCall_JSON_Misc {
 
 @SuppressWarnings("unchecked")
 @Test
@@ -31,7 +27,7 @@ public void TC_2()
             authparam.put("Key", "key1");
 			authparam.put("Value", "value2");
             authparam.put("Key", "key2");
-            //authArray.put(authparam);
+            authArray.add(authparam);
 
             requestparams.put("Authentication", authparam);
 		
@@ -44,5 +40,4 @@ public void TC_2()
 		System.out.println("Body is : " + body);
 		Assert.assertEquals(code, 201);
 	}
-	
 }
