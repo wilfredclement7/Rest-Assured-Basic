@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alpha.RedditExample">
+      <class name="alpha.Flow3_Hash">
         <methods>
-          <include name="TC_2"/>
+          <include name="test_steps"/>
         </methods>
-      </class> <!-- alpha.RedditExample -->
+      </class> <!-- alpha.Flow3_Hash -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
