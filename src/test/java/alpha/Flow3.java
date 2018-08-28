@@ -14,7 +14,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Flow3_Hash {
+public class Flow3 {
 
     @DataProvider
     public Object[][] ProvideData() throws Exception {
@@ -56,8 +56,6 @@ public class Flow3_Hash {
 		String body = resp.asString();
 		System.out.println("Body is : " + body + "\n");
 		Assert.assertEquals(code, 201);
-		
-        //Response res = RestAssured.given().when().get(URL);
-        //Assert.assertEquals(Integer.toString(res.statusCode()), StatusCode);
+
     }
 }

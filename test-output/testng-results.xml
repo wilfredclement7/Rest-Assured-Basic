@@ -2,74 +2,134 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2437" started-at="2018-08-28T12:12:23Z" finished-at="2018-08-28T12:12:26Z">
+  <suite name="Default suite" duration-ms="1804" started-at="2018-08-28T14:09:07Z" finished-at="2018-08-28T14:09:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2437" started-at="2018-08-28T12:12:23Z" finished-at="2018-08-28T12:12:26Z">
-      <class name="alpha.Flow3_Hash">
-        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow3_Hash@53b32d7]" name="test_steps" duration-ms="2233" started-at="2018-08-28T12:12:24Z" data-provider="ProvideData" finished-at="2018-08-28T12:12:26Z">
+    <test name="Default test" duration-ms="1804" started-at="2018-08-28T14:09:07Z" finished-at="2018-08-28T14:09:09Z">
+      <class name="alpha.Flow4">
+        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow4@e45f292]" name="test_steps" duration-ms="1592" started-at="2018-08-28T14:09:08Z" data-provider="ProvideData" finished-at="2018-08-28T14:09:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[AA]]>
+                <![CDATA[5838]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Willy]]>
+                <![CDATA[donut]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Willy]]>
+                <![CDATA[Cake]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Home]]>
+                <![CDATA[6]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Home]]>
+                <![CDATA[Regular]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Devil's Food]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Maple]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_steps -->
-        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow3_Hash@53b32d7]" name="test_steps" duration-ms="26" started-at="2018-08-28T12:12:26Z" data-provider="ProvideData" finished-at="2018-08-28T12:12:26Z">
+        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow4@e45f292]" name="test_steps" duration-ms="33" started-at="2018-08-28T14:09:09Z" data-provider="ProvideData" finished-at="2018-08-28T14:09:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[BB]]>
+                <![CDATA[5839]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Wilfred]]>
+                <![CDATA[donut]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Wilfred]]>
+                <![CDATA[Cake]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Test]]>
+                <![CDATA[6]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Test]]>
+                <![CDATA[Regular]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Devil's Food]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Maple]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_steps -->
-      </class> <!-- alpha.Flow3_Hash -->
+      </class> <!-- alpha.Flow4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
