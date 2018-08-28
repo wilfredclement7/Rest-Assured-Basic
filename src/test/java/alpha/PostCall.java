@@ -29,7 +29,7 @@ public void TC_2()
 		Response resp = req.post("http://localhost:3000/posts");
 		
 		int code = resp.getStatusCode();
-		System.out.println("Status Code is : " + resp);
+		System.out.println("Status Code is : " + code);
 		String body = resp.asString();
 		System.out.println("Body is : " + body);
 		Assert.assertEquals(code, 201);

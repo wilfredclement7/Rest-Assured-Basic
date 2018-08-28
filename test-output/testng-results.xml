@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1628" started-at="2018-08-23T14:10:39Z" finished-at="2018-08-23T14:10:40Z">
+  <suite name="Default suite" duration-ms="10039" started-at="2018-08-28T10:39:08Z" finished-at="2018-08-28T10:39:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1628" started-at="2018-08-23T14:10:39Z" finished-at="2018-08-23T14:10:40Z">
-      <class name="alpha.DataDrivenTC">
-        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.DataDrivenTC@53b32d7]" name="test_steps" duration-ms="1072" started-at="2018-08-23T14:10:39Z" data-provider="ProvideData" finished-at="2018-08-23T14:10:40Z">
+    <test name="Default test" duration-ms="10039" started-at="2018-08-28T10:39:08Z" finished-at="2018-08-28T10:39:18Z">
+      <class name="alpha.Flow2">
+        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow2@53b32d7]" name="test_steps" duration-ms="6597" started-at="2018-08-28T10:39:09Z" data-provider="ProvideData" finished-at="2018-08-28T10:39:15Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_steps -->
-        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.DataDrivenTC@53b32d7]" name="test_steps" duration-ms="370" started-at="2018-08-23T14:10:40Z" data-provider="ProvideData" finished-at="2018-08-23T14:10:40Z">
+        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow2@53b32d7]" name="test_steps" duration-ms="2884" started-at="2018-08-28T10:39:15Z" data-provider="ProvideData" finished-at="2018-08-28T10:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_steps -->
-        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.DataDrivenTC@53b32d7]" name="test_steps" duration-ms="24" started-at="2018-08-23T14:10:40Z" data-provider="ProvideData" finished-at="2018-08-23T14:10:40Z">
+        <test-method status="PASS" signature="test_steps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alpha.Flow2@53b32d7]" name="test_steps" duration-ms="60" started-at="2018-08-28T10:39:18Z" data-provider="ProvideData" finished-at="2018-08-28T10:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_steps -->
-      </class> <!-- alpha.DataDrivenTC -->
+      </class> <!-- alpha.Flow2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
