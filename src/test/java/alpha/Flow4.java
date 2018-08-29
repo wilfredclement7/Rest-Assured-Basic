@@ -18,7 +18,7 @@ public class Flow4 {
 
     @DataProvider
     public Object[][] ProvideData() throws Exception {
-        Workbook workbook = Workbook.getWorkbook(new File("C:\\Users\\wi20022508\\Desktop\\Automation\\TestData.xls"));
+        Workbook workbook = Workbook.getWorkbook(new File("C:\\Users\\wi20022508\\eclipse-workspace\\Rest-Assured\\Automation\\TestData.xls"));
         Sheet sheet = workbook.getSheet("Sheet3");
         int records = sheet.getRows() - 1;
         System.out.println("Body is : " + records + "\n");
@@ -51,7 +51,7 @@ public class Flow4 {
 
 	    Batters batters = new Batters();
 	    batters.setBatter(Arrays.asList(batter1, batter2));
-	    user.setBatters(batters); 
+	    user.setBatters(batters);
 	    
 	    Topping topping1 = new Topping();
 	    topping1.setId(Topping1I);
@@ -67,7 +67,7 @@ public class Flow4 {
 	    mapper.enable(SerializationFeature.INDENT_OUTPUT);
 
 	    String json = mapper.writeValueAsString(user);
-    	
+	      	
 		RequestSpecification req=RestAssured.given();
 		req.header("Content-Type","application/json");
 		req.body(json).when();
