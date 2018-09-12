@@ -25,7 +25,7 @@ public void TC_2()
 
             authparam.put("Value", "value1");
             authparam.put("Key", "key1");
-			authparam.put("Value", "value2");
+	    authparam.put("Value", "value2");
             authparam.put("Key", "key2");
             authArray.add(authparam);
 
