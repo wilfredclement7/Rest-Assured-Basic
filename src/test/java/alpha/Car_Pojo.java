@@ -1,47 +1,38 @@
 package alpha;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Car_Pojo {
-	
-	String make;
-	String model;
+
+	@JsonProperty("Make")
+	private String make;
+	@JsonProperty("Model")
+	private String model;
+	@JsonProperty("Year")
 	int year;
-	
-	public Car_Pojo() {
-		
-	}
-	
-	public Car_Pojo(String make, String model, int year) {
-		
-		this.make = make;
-		this.model = model;
-		this.year = year;
-	}
-	
+
 	public String getMake() {
-		return this.make;
+		return make;
 	}
-	
-	public String getModel() {
-		return this.model;
-	}
-	
-	public int getYear() {
-		return this.year;
-	}
-	
+
 	public void setMake(String make) {
 		this.make = make;
 	}
-	
+
+	public String getModel() {
+		return model;
+	}
+
 	public void setModel(String model) {
 		this.model = model;
 	}
-	
+
+	public int getYear() {
+		return year;
+	}
+
 	public void setYear(int year) {
 		this.year = year;
 	}
-	
-	public String toString() {
-		return "My car is a " + this.year + " " + this.make + " " + this.model;
-	}
+
 }
