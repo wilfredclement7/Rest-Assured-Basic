@@ -1,30 +1,19 @@
 package alpha;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import com.relevantcodes.extentreports.LogStatus;
 import io.restassured.RestAssured;
-import alpha.BaseClass;
-import alpha.ExtentTestManager;
+import static io.restassured.RestAssured.*;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 
-public class Car_Serialize extends BaseClass {
+public class Car_Serialize {
+	public static void main(String[] args) {
 
-	Car_Pojo myCar = new Car_Pojo("Maruti","DB10",2018);
-	
-    @Test
-    public void Serialization()
-	{
-		RequestSpecification req = RestAssured.given();
-		req.header("Content-Type","application/json");
-		req.body(myCar);
+		Car_Pojo car = new Car_Pojo();
+		car.setMake("Honda");
+		car.setModel("City");
+		car.setYear(2015);
 		
-		Response resp = req.post("http://localhost:3000/posts");
-		ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + resp);
-		
-		int code = resp.getStatusCode();
-		ExtentTestManager.getTest().log(LogStatus.INFO, "Status code is : " + code);
-		Assert.assertEquals(code, 201);
+		Response res = given().log().all().contentType(ContentType.JSON).when().body(car).post("http://localhost:3000/posts").then().extract().response();
+		System.out.println("The status code is : "+res.getStatusCode());
 	}
 }
