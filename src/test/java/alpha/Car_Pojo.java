@@ -10,6 +10,8 @@ public class Car_Pojo {
 	private String model;
 	@JsonProperty("Year")
 	int year;
+	@JsonProperty("Response")
+	private String Response;
 
 	public String getMake() {
 		return make;
@@ -33,6 +35,14 @@ public class Car_Pojo {
 
 	public void setYear(int year) {
 		this.year = year;
+	}
+
+	public String getResponse() {
+		return Response;
+	}
+
+	public void setResponse(String response) {
+		Response = response;
 	}
 
 }
