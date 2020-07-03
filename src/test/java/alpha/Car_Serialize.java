@@ -12,8 +12,10 @@ public class Car_Serialize {
 		car.setMake("Honda");
 		car.setModel("City");
 		car.setYear(2015);
-		
-		Response res = given().log().all().contentType(ContentType.JSON).when().body(car).post("http://localhost:3000/posts").then().extract().response();
-		System.out.println("The status code is : "+res.getStatusCode());
+
+		Response res = given().log().all().contentType(ContentType.JSON).when().body(car)
+				.post("http://localhost:3000/posts").then().extract().response();
+		System.out.println("The status code is : " + res.getStatusCode());
+		System.out.println("The response is : " + res.as(Car_Pojo.class).getResponse());
 	}
 }
